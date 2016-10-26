@@ -22,7 +22,7 @@ RUN bash /build/.docker/after-boot-actions/setup.sh
 RUN bash /build/.docker/uploads/setup.sh
 
 # nginx setup script for october
-RUN bash /build/.docker/nginx/setup.s
+RUN bash /build/.docker/nginx/setup.sh
 
 
 # secure it by removing default keys.
